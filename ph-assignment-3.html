@@ -24,30 +24,128 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            'btn-color': '#FF4240',
+            'h-color': '#131318',
+            'p-color': '#13131899',
           }
         }
       }
     }
   </script>
+<!-- style -->
+<style>
+
+</style>
+<!-- --------- -->
+
+
+
+
 </head>
 
 
 
 
 
-<body>
+<body class="p-0 lg:px-36 lg:py-5">
  <!-------------------------------------------------------  -->
     
 
 
+ <div class="container-sm lg:container-lg  font-[manrope]">
 
+
+<header>
+
+
+
+
+</header>
+
+
+
+
+<main>
+
+
+<!----------------------- slider -------------------------------->
+<section>
+  <div class="carousel w-full h-96 rounded-3xl relative">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img src="Images/slider1.png" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="Images/slider2.jpg" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="Images/slider3.jpg" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="Images/slider4.jpg" class="w-full" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide3" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+
+    <div class="bg-black text-center p-5 rounded-md h-1/3 w-2/5 absolute bottom-8 right-8">
+
+      <h1 class="font-extrabold text-3xl capitalize text-white">meet all the heros</h1>
+      <p class=" text-white">
+       "In the game of hockey, every player steps onto the ice with a 
+       chance to become a hero.</p>
+      
+    </div>
+
+
+  </div>
+
+
+</section>
+
+<!----------------------- slider -------------------------------->
+
+
+<section class="text-center mt-40 mb-5">
+  <h1 class="h-color text-3xl font-extrabold">Professional Hockeys Club</h1> <br>
+  <p> Tradition Meets Innovation: Embrace the rich legacy of our storied <br>
+    franchise while pushing the boundaries of what's possible in the modern game.</p>
+</section>
+
+
+<section >
+
+</section>
+
+</main>
+
+<footer>
+
+</footer>
+
+
+
+ </div>
 
 
  <!-------------------------------------------------------  -->
